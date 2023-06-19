@@ -1,0 +1,33 @@
+@media screen and (min-width: 375px) {
+}
+#wrapper-nav {
+	display: grid;
+	grid-template-areas:
+		". . ."
+		"ul-0 ul-1 ul-2";
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+}
+#ul-0 {
+	grid-area: ul-0;
+	text-decoration: none;
+	color: var(--bs-navbar-brand-color);
+	align-content: center;
+	font-size: 100%;
+	display: block;
+}
+#ul-1 {
+	grid-area: ul-1;
+	font-size: 100%;
+}
+#ul-2 {
+	grid-area: ul-2;
+}
+#imgPerfil {
+	width: 15%;
+}
+#logo {
+	vertical-align: middle;
+}

@@ -1,0 +1,15 @@
+.color {
+	background-color: rgb(200, 195, 195);
+	color: darkslateblue solid 1px;
+}
+.resaltado {
+	background-color: yellow;
+	color: red;
+}
+img {
+	height: 200px;
+	width: 200px;
+}
+.oculto {
+	display: none;
+}

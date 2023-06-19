@@ -1,0 +1,7 @@
+/* este es un css para javascript por que no aguanto el fondo blanco xd */
+* {
+	background-color: black;
+	background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?cs=srgb&dl=pexels-adrien-olichon-2387793.jpg&fm=jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}

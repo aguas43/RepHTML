@@ -1,0 +1,33 @@
+#panSup{
+    background-color: rgb(218, 170, 123);
+    width: 70%;
+    height: 120px;
+    border-bottom: 12px inset rgb(198, 164, 130);
+    border-top-right-radius: 210px;
+    border-top-left-radius: 210px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+}
+#salchicha{
+    background-color: brown;
+    width: 77%;
+    height: 80px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+#panInf{
+    background-color: rgb(218, 170, 123);
+    width: 70%;
+    height: 120px;
+    border-top: 12px solid rgb(198, 164, 130);
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 210px;
+    border-bottom-right-radius: 210px;
+}
+div{
+    margin: 0px auto;
+}

@@ -1,0 +1,45 @@
+#div1-ejer1{
+    border: 2px solid red;
+    border-left: 5px solid blue;
+    margin: 20px;
+    background-color: #e69ef2;
+    padding: 20px;
+}
+#div2-ejer1{
+    background-color: #62d0ff;
+    padding: 20px;
+    margin: 20px;
+}
+#div-1{
+    background-color: #e69ef2;
+}
+#div-2{
+    background-color:  #62d0ff;
+}
+#div-3{
+    background-color: #ced5db;
+}
+#div-4{
+    background-color: #85e38d;
+}
+.borderHeight{
+    height: 150px;
+    border: 3px solid #092454;
+}
+#container{
+    margin: 0 auto;
+    width: 80%;
+}
+#navbar{
+    background-color:#118AB2; 
+}
+#contenido{
+    float: left;
+    width: 70%;
+    background-color: #06D6A0;
+}
+#sidebar{
+    float: left;
+    width: 30%;
+    background-color:#EF476F;
+}

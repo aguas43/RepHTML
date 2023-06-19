@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-25_bc15ec98.jpeg);
+	background-size: 111%;
+}
+#divPresentacion {
+	height: 100vh;
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/1005/822/563/star-wars-death-star-at-at-space-wallpaper-preview.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#divPresentacion div {
+	text-align: center;
+	padding-top: 10px;
+}
+.imperio {
+	background-color: red;
+}
+.rebeldes {
+	background-color: blue;
+}
+#darthVader {
+	font-size: 150%;
+}
+#luke {
+	font-style: italic;
+}
+.soldados {
+	border-style: dashed solid;
+	letter-spacing: 2px;
+}
+.apoyo {
+	text-align: center;
+	font-size: 200%;
+}
+.naves {
+	text-transform: uppercase;
+}
+#divPresentacion h1 {
+	text-align: center;
+	color: #d7ac01;
+}
+#divPresentacion h3 {
+	text-align: center;
+	color: #d7ac01;
+}

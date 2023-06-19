@@ -1,0 +1,46 @@
+/* .verde{
+    background-color: lime;
+    border: 1px solid orange;
+} */
+* {
+	margin: 0;
+	padding: 0;
+}
+#grilla {
+	display: grid;
+	grid-template-areas:
+		"presentacion presentacion presentacion"
+		"desarrollo desarrollo desarrollo"
+		"footer footer footer";
+	grid-template-rows: 3fr 3fr 2fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 1%;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+section#presentacion {
+	grid-area: presentacion;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+section#desarrollo {
+	grid-area: desarrollo;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+footer {
+	grid-area: footer;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.border {
+	border: 1px solid black;
+}
